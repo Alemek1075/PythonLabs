@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="See current prices by country for prices of items we do track. You can see prices only for countries where we have decent number of contributors." />
+            <script defer src="https://www.numbeo.com/common/numbeo_standard.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.min.css" rel="Stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.numbeo.com/favicon.ico" />
+    <script  defer  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script  defer  src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+   <script src='https://www.gstatic.com/charts/loader.js'></script>
+<link rel="apple-touch-icon" href="https://www.numbeo.com/images/apple-touch-icon.png">
+  <script>
+  if (typeof whenDocReady === "function") {
+    // already declared, do nothing
+  } else {
+    function whenDocReady(fn) {
+      // see if DOM is already available
+      if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+      } else {
+        document.addEventListener("DOMContentLoaded", fn);
+      }
+    }
+  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEZG0C6Q2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('config', 'G-HXEZG0C6Q2');
+gtag('set', 'user_properties', { ab: '0'});
+</script>
+<link rel="stylesheet" href="https://cdn.datatables.net/v/ju/dt-1.10.22/datatables.min.css"/>
+<script defer src="https://cdn.datatables.net/v/ju/dt-1.10.22/datatables.min.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993465169534557"
+     crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://www.numbeo.com/common/style_desktop.css" />
+
+  <script>
+
+    function checkControls() {
+
+      enableIfElementsHaveSomeValue("calculate", /* to check */ "itemId", "displayCurrency");
+
+    }
+
+  </script>
+
+<link rel="canonical" href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp?itemId=12" />
+  <title>Prices by Country of Local Cheese (1 kg) (Markets)</title>
+
+</head>
+
+<body>
+
+<nav>
+<div class="logo-and-upper-ad">
+<div class="innerWidth" id="content_and_logo">
+<table style="width: 100%;" >
+<tr>
+<td style="padding-top: 14px; padding-bottom: 16px; vertical-align: bottom; max-width: fit-content" class="container_around_logo_desktop">
+<a href="https://www.numbeo.com/cost-of-living/" style="border: 0; text-decoration:none;">
+<img src="https://www.numbeo.com/images/numbeo_1B3B6F.svg" style="height: 60px; padding: 0px 0px; vertical-align: bottom; border: 0;" alt="" /></a>
+</td>
+<td style="padding-left:40px; padding-top: 5px; padding-bottom: 0px; vertical-align: middle; min-width: 440px; text-align: left;" >
+<div style="display: inline-block; width: 100%; margin-top: 10px; margin-bottom: 10px; text-align: left; vertical-align: bottom">
+<nav style="display: inline-block; vertical-align: middle;">
+<div class="standard_margin_inlineblock" >      <form action="https://www.numbeo.com/common/dispatcher.jsp" method="get" id="menu_dispatch_form"  style="display: inline; padding: 0; margin:0;">
+      <input type="hidden" name="where" value="https://www.numbeo.com/cost-of-living/in/" style="display: inline; padding:0; margin:0;" />
+<input id="city_selector_menu_city_id"  size="27"  type="text" placeholder="Select City" class="city-selector-menu" name="city_selector_menu_city_id" />
+<input type="hidden" id="menu_city_id" name="city_id"/>
+<input type="hidden" id="name_menu_city_id" name="name_city_id"/>
+      </form>
+</div>
+ <script>
+whenDocReady(function() {
+  	jQuery('#city_selector_menu_city_id').autocomplete({
+  	  source: 'https://www.numbeo.com/common/CitySearchJson',
+     minLength: 1,
+     delay: 3,
+     autoFocus: true,
+     select: function(event, ui) {
+         event.preventDefault();
+         $('#name_menu_city_id').val(ui.item.label);
+         $('#city_selector_menu_city_id').val(ui.item.label);
+         $('#menu_city_id').val(ui.item.value);
+jQuery('#menu_dispatch_form').submit();     },
+     focus: function(event, ui) {
+         event.preventDefault();
+     }
+	  })   .keydown(function(e){
+	    if (e.keyCode === 13){
+      if ($('#menu_city_id').val() == '') { 
+        e.preventDefault();
+      }
+      var val = $('#city_selector_menu_city_id').val();
+		   $('#name_menu_city_id').val(val);
+	   }
+  }); // end autocompleter definition
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+ }); // end document ready 
+</script>
+</nav>
+</div>
+</td>
+<td style="vertical-align: middle; width: 468px; text-align: right;" >
+</td>
+</tr>
+</table>
+</div> <!-- innerWidth in header -->
+</div> <!-- logo-and-upper-ad -->
+</nav>
+<div class="innerWidth">
+<div class="dropdown-outer">
+<nav class="before-nav" >
+    <ul id="nav-one" class="nav">
+
+	<li class="dir">
+<a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/comparison.jsp">Cost of Living Comparison</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/calculator.jsp">Cost of Living Calculator</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_current.jsp">Cost Of Living Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings.jsp">Cost Of Living Index</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Cost Of Living Index By Country</a></li>
+    <li><a href="https://www.numbeo.com/food-prices/">Food Prices</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp">Prices By City</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp">Prices By Country</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/basket_of_goods.jsp">Basket of Goods and Services</a></li>
+    <li><a href="https://www.numbeo.com/taxi-fare/">Taxi Fare Calculator</a></li>
+    <li><a href="https://www.numbeo.com/gas-prices/">Gas Prices Calculator</a></li>
+    <li><a href="https://www.numbeo.com/common/motivation_and_methodology.jsp">Methodology and Motivation</a></li>
+    <li><a href="https://www.numbeo.com/salary-calculator/">Salary Calculator</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/contribute.jsp">Update Data for Your City</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/property-investment/">Property Prices</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/property-investment/">Property Prices</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/comparison.jsp">Property Prices Comparison</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_current.jsp">Property Price Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings.jsp">Property Price Index</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_by_country.jsp">Property Price Index By Country</a></li>
+   </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/quality-of-life/">Quality Of Life</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/quality-of-life/">Quality of Life</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/comparison.jsp">Quality of Life Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_current.jsp">Quality of Life Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings.jsp">Quality of Life Index</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp">Quality of Life Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/crime/">Crime</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_current.jsp">Crime Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings.jsp">Crime Index</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_by_country.jsp">Crime Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/health-care/">Health Care</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_current.jsp">Health Care Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings.jsp">Health Care Index</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_by_country.jsp">Health Care Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/pollution/">Pollution</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_current.jsp">Pollution Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings.jsp">Pollution Index</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_by_country.jsp">Pollution Index by Country</a></li>
+     <li><a href="https://www.numbeo.com/traffic/">Traffic</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_current.jsp">Traffic Index (Current)</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings.jsp">Traffic Index</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_by_country.jsp">Traffic Index by Country</a></li>
+	</ul></li>
+	<li class="dir">
+<a href="https://www.numbeo.com/premium/index">Premium</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/common/api.jsp">Data API</a></li>
+    <li><a href="https://www.numbeo.com/premium/commercial-license">Data License</a></li>
+    <li><a href="https://www.numbeo.com/premium/download-data">Bulk Data Download</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/historical-data-analysis">Historical Data Explorer</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/estimator_main">Cost of Living Estimator</a></li>
+    <li><a href="https://www.numbeo.com/premium/">Insight Reports</a></li>
+    <li><a href="https://www.numbeo.com/premium/international-salary-equivalent-calculator">Global Salary Equivalent Calculator</a></li>
+    <li><a href="https://www.numbeo.com/premium/relocation-salary-calculator">Relocation Salary Calculator</a></li>
+	</ul></li>
+
+
+</ul>
+<br style="clear: both"/>
+</nav>
+</div> <!-- dropdown-outer -->
+</div> <!-- innerWidth -->
+<div class="innerWidth">
+ <div class="right-ads-and-info">
+ <div class="right-ads">
+ </div>
+ </div>
+<p>
+<nav itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+<a href="https://www.numbeo.com/common/" class="discreet_link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="image_without_border hide_smaller_than_600" style="vertical-align: text-bottom" viewBox="0 0 24 24"><path fill="#1B3B6F" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z"/></svg></a><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/" itemprop="item" class="breadcrumb_link"><span itemprop="name">Cost of Living</span></a><meta itemprop="position" content="1" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+ <a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp"  itemprop="item"  class="breadcrumb_link"><span itemprop="name">Prices by Country</span></a><meta itemprop="position" content="2" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp?itemId=12"  itemprop="item"  class="breadcrumb_link">
+<span itemprop="name">Local Cheese (1 kg) (Markets)</span></a><meta itemprop="position" content="3" />
+</span></nav>
+    <h1> Prices by Country of Local Cheese (1 kg) (Markets)</h1>
+
+
+<!-- Column 1 start -->
+
+
+<div id="page_container">
+
+This page displays current price data by country.
+<br/>Data are displayed only for countries with a sufficient number of contributors.
+<br/>
+
+<div class="fancy_explanation" style="margin-bottom: 0.8em; width: fit-content;">
+<a href="https://www.numbeo.com/cost-of-living/country_price_rankings?displayCurrency=EUR&amp;itemId=12">See bar chart of these data</a></div>
+
+<div class="regionChartDivContainer">
+<div id="chart_div_12" class="regionChartDiv" ></div><div class="regionChartDivLabel">
+Chart: Local Cheese (1 kg), Markets</div>
+</div>
+ <script>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawRegionsMap_12);
+
+      function drawRegionsMap_12() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Country');
+        data.addColumn('number', 'Local Cheese (1 kg), Markets');
+        data.addRows([
+        ['Switzerland', 23.56],
+        ['Hong Kong (China)', 19.71],
+        ['Luxembourg', 18.54],
+        ['Austria', 17.42],
+        ['France', 17.22],
+        ['Singapore', 15.72],
+        ['Israel', 15.69],
+        ['Taiwan', 15.58],
+        ['Italy', 14.97],
+        ['Thailand', 14.95],
+        ['Belgium', 13.53],
+        ['Slovenia', 13.10],
+        ['Denmark', 12.98],
+        ['Germany', 12.87],
+        ['Spain', 12.42],
+        ['Slovakia', 12.41],
+        ['Netherlands', 12.39],
+        ['Greece', 12.05],
+        ['Malaysia', 12.05],
+        ['Uruguay', 11.85],
+        ['Cyprus', 11.81],
+        ['United States', 11.34],
+        ['China', 11.27],
+        ['South Korea', 11.20],
+        ['Norway', 11.18],
+        ['Czech Republic', 11.10],
+        ['Sweden', 10.80],
+        ['Croatia', 10.65],
+        ['Albania', 10.64],
+        ['Sri Lanka', 10.54],
+        ['Estonia', 10.44],
+        ['Lithuania', 10.24],
+        ['Portugal', 10.24],
+        ['Panama', 10.17],
+        ['Vietnam', 10.04],
+        ['Ireland', 9.85],
+        ['Russia', 9.67],
+        ['Canada', 9.51],
+        ['Tunisia', 9.50],
+        ['Latvia', 9.49],
+        ['Japan', 9.44],
+        ['Malta', 9.43],
+        ['United Arab Emirates', 9.43],
+        ['Chile', 9.41],
+        ['Bulgaria', 9.38],
+        ['Qatar', 9.29],
+        ['Puerto Rico', 9.17],
+        ['Zimbabwe', 9.16],
+        ['Morocco', 9.13],
+        ['Kenya', 8.70],
+        ['Hungary', 8.57],
+        ['Serbia', 8.57],
+        ['Australia', 8.57],
+        ['Argentina', 8.52],
+        ['Kazakhstan', 8.50],
+        ['Bahrain', 8.49],
+        ['United Kingdom', 8.32],
+        ['Turkey', 8.24],
+        ['Costa Rica', 8.22],
+        ['Moldova', 8.16],
+        ['Bosnia And Herzegovina', 8.04],
+        ['Mexico', 8.03],
+        ['Mauritius', 7.99],
+        ['Montenegro', 7.99],
+        ['Poland', 7.97],
+        ['Brazil', 7.85],
+        ['Lebanon', 7.68],
+        ['North Macedonia', 7.68],
+        ['Algeria', 7.67],
+        ['Finland', 7.67],
+        ['Ukraine', 7.65],
+        ['Romania', 7.65],
+        ['Indonesia', 7.45],
+        ['Dominican Republic', 7.17],
+        ['New Zealand', 7.11],
+        ['South Africa', 7.05],
+        ['Peru', 7.03],
+        ['Uzbekistan', 7.01],
+        ['Bangladesh', 6.96],
+        ['Belarus', 6.73],
+        ['Philippines', 6.54],
+        ['Saudi Arabia', 6.47],
+        ['Armenia', 6.46],
+        ['Georgia', 6.39],
+        ['Oman', 6.23],
+        ['Nepal', 6.10],
+        ['Kosovo (Disputed Territory)', 5.80],
+        ['Venezuela', 5.67],
+        ['Jordan', 5.59],
+        ['Ecuador', 5.41],
+        ['Kuwait', 5.24],
+        ['Pakistan', 5.10],
+        ['Cuba', 5.03],
+        ['Nigeria', 4.99],
+        ['Colombia', 4.72],
+        ['Bolivia', 4.32],
+        ['India', 4.14],
+        ['Iraq', 4.12],
+        ['Azerbaijan', 3.83],
+        ['Iran', 3.43],
+        ['Egypt', 2.98],
+        ]);
+
+        var options = {
+          colorAxis: {colors: [ '#1a9641', '#a6d96a', '#ffffbf', '#fdae61', '#d7191c']}
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('chart_div_12'));
+        chart.draw(data, options);
+    };
+    </script>
+
+
+<form action="prices_by_country.jsp" method="get" class="standard_margin">
+<input type="hidden" name="itemId" value="12" />
+Currency:          <select id="displayCurrency" name="displayCurrency" onchange="if (checkSelectedSomeTextNotDashed('displayCurrency')) this.form.submit();">
+             <option value="EUR" selected="selected">EUR</option>
+             <option value="USD">USD</option>
+             <option value="---">---</option>
+             <option value="AED">AED</option>
+             <option value="AFN">AFN</option>
+             <option value="ALL">ALL</option>
+             <option value="AMD">AMD</option>
+             <option value="ANG">ANG</option>
+             <option value="AOA">AOA</option>
+             <option value="ARS">ARS</option>
+             <option value="AUD">AUD</option>
+             <option value="AWG">AWG</option>
+             <option value="AZN">AZN</option>
+             <option value="BAM">BAM</option>
+             <option value="BBD">BBD</option>
+             <option value="BDT">BDT</option>
+             <option value="BGN">BGN</option>
+             <option value="BHD">BHD</option>
+             <option value="BIF">BIF</option>
+             <option value="BMD">BMD</option>
+             <option value="BND">BND</option>
+             <option value="BOB">BOB</option>
+             <option value="BRL">BRL</option>
+             <option value="BSD">BSD</option>
+             <option value="BTC">BTC</option>
+             <option value="BTN">BTN</option>
+             <option value="BWP">BWP</option>
+             <option value="BYN">BYN</option>
+             <option value="BZD">BZD</option>
+             <option value="CAD">CAD</option>
+             <option value="CDF">CDF</option>
+             <option value="CHF">CHF</option>
+             <option value="CLF">CLF</option>
+             <option value="CLP">CLP</option>
+             <option value="CNH">CNH</option>
+             <option value="CNY">CNY</option>
+             <option value="COP">COP</option>
+             <option value="CRC">CRC</option>
+             <option value="CUC">CUC</option>
+             <option value="CVE">CVE</option>
+             <option value="CZK">CZK</option>
+             <option value="DJF">DJF</option>
+             <option value="DKK">DKK</option>
+             <option value="DOP">DOP</option>
+             <option value="EGP">EGP</option>
+             <option value="ERN">ERN</option>
+             <option value="EUR">EUR</option>
+             <option value="FJD">FJD</option>
+             <option value="FKP">FKP</option>
+             <option value="GBP">GBP</option>
+             <option value="GEL">GEL</option>
+             <option value="GGP">GGP</option>
+             <option value="GHS">GHS</option>
+             <option value="GIP">GIP</option>
+             <option value="GMD">GMD</option>
+             <option value="GNF">GNF</option>
+             <option value="GTQ">GTQ</option>
+             <option value="GYD">GYD</option>
+             <option value="HKD">HKD</option>
+             <option value="HNL">HNL</option>
+             <option value="HRK">HRK</option>
+             <option value="HTG">HTG</option>
+             <option value="HUF">HUF</option>
+             <option value="IDR">IDR</option>
+             <option value="ILS">ILS</option>
+             <option value="IMP">IMP</option>
+             <option value="INR">INR</option>
+             <option value="IQD">IQD</option>
+             <option value="IRR">IRR</option>
+             <option value="ISK">ISK</option>
+             <option value="JEP">JEP</option>
+             <option value="JMD">JMD</option>
+             <option value="JOD">JOD</option>
+             <option value="JPY">JPY</option>
+             <option value="KES">KES</option>
+             <option value="KGS">KGS</option>
+             <option value="KHR">KHR</option>
+             <option value="KMF">KMF</option>
+             <option value="KPW">KPW</option>
+             <option value="KRW">KRW</option>
+             <option value="KWD">KWD</option>
+             <option value="KYD">KYD</option>
+             <option value="KZT">KZT</option>
+             <option value="LAK">LAK</option>
+             <option value="LBP">LBP</option>
+             <option value="LKR">LKR</option>
+             <option value="LRD">LRD</option>
+             <option value="LSL">LSL</option>
+             <option value="LYD">LYD</option>
+             <option value="MAD">MAD</option>
+             <option value="MDL">MDL</option>
+             <option value="MGA">MGA</option>
+             <option value="MKD">MKD</option>
+             <option value="MNT">MNT</option>
+             <option value="MOP">MOP</option>
+             <option value="MRU">MRU</option>
+             <option value="MUR">MUR</option>
+             <option value="MVR">MVR</option>
+             <option value="MXN">MXN</option>
+             <option value="MYR">MYR</option>
+             <option value="MZN">MZN</option>
+             <option value="NAD">NAD</option>
+             <option value="NGN">NGN</option>
+             <option value="NIO">NIO</option>
+             <option value="NOK">NOK</option>
+             <option value="NPR">NPR</option>
+             <option value="NZD">NZD</option>
+             <option value="OMR">OMR</option>
+             <option value="PAB">PAB</option>
+             <option value="PEN">PEN</option>
+             <option value="PGK">PGK</option>
+             <option value="PHP">PHP</option>
+             <option value="PKR">PKR</option>
+             <option value="PLN">PLN</option>
+             <option value="PYG">PYG</option>
+             <option value="QAR">QAR</option>
+             <option value="RON">RON</option>
+             <option value="RSD">RSD</option>
+             <option value="RUB">RUB</option>
+             <option value="RWF">RWF</option>
+             <option value="SAR">SAR</option>
+             <option value="SBD">SBD</option>
+             <option value="SCR">SCR</option>
+             <option value="SDG">SDG</option>
+             <option value="SEK">SEK</option>
+             <option value="SGD">SGD</option>
+             <option value="SHP">SHP</option>
+             <option value="SLE">SLE</option>
+             <option value="SLL">SLL</option>
+             <option value="SOS">SOS</option>
+             <option value="SRD">SRD</option>
+             <option value="STD">STD</option>
+             <option value="STN">STN</option>
+             <option value="SVC">SVC</option>
+             <option value="SYP">SYP</option>
+             <option value="SZL">SZL</option>
+             <option value="THB">THB</option>
+             <option value="TJS">TJS</option>
+             <option value="TMT">TMT</option>
+             <option value="TND">TND</option>
+             <option value="TOP">TOP</option>
+             <option value="TRY">TRY</option>
+             <option value="TTD">TTD</option>
+             <option value="TWD">TWD</option>
+             <option value="TZS">TZS</option>
+             <option value="UAH">UAH</option>
+             <option value="UGX">UGX</option>
+             <option value="USD">USD</option>
+             <option value="UYU">UYU</option>
+             <option value="UZS">UZS</option>
+             <option value="VES">VES</option>
+             <option value="VND">VND</option>
+             <option value="VUV">VUV</option>
+             <option value="WST">WST</option>
+             <option value="XAF">XAF</option>
+             <option value="XAG">XAG</option>
+             <option value="XAU">XAU</option>
+             <option value="XCD">XCD</option>
+             <option value="XCG">XCG</option>
+             <option value="XDR">XDR</option>
+             <option value="XOF">XOF</option>
+             <option value="XPD">XPD</option>
+             <option value="XPF">XPF</option>
+             <option value="XPT">XPT</option>
+             <option value="YER">YER</option>
+             <option value="ZAR">ZAR</option>
+             <option value="ZMW">ZMW</option>
+             <option value="ZWG">ZWG</option>
+             <option value="ZWL">ZWL</option>
+         </select>
+
+</form>
+
+<div style="max-width: 35em;">
+<table id="t2"  class="stripe row-border order-column compact" >
+<thead>
+<tr>
+	<th><div style="font-size: 80%; vertical-align: middle;">Rank</div></th>
+<th><div class="font_in_table_headers">Country</div></th><th><div class="font_in_table_headers">Local Cheese <br/>(1 kg)</div></th></tr>
+</thead>
+<tbody>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Kazakhstan">Kazakhstan</a></td><td style="white-space: nowrap; text-align: right">8.50</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Portugal">Portugal</a></td><td style="white-space: nowrap; text-align: right">10.24</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Greece">Greece</a></td><td style="white-space: nowrap; text-align: right">12.05</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Latvia">Latvia</a></td><td style="white-space: nowrap; text-align: right">9.49</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Iran">Iran</a></td><td style="white-space: nowrap; text-align: right">3.43</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Morocco">Morocco</a></td><td style="white-space: nowrap; text-align: right">9.13</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Panama">Panama</a></td><td style="white-space: nowrap; text-align: right">10.17</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Iraq">Iraq</a></td><td style="white-space: nowrap; text-align: right">4.12</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Chile">Chile</a></td><td style="white-space: nowrap; text-align: right">9.41</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Nepal">Nepal</a></td><td style="white-space: nowrap; text-align: right">6.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Argentina">Argentina</a></td><td style="white-space: nowrap; text-align: right">8.52</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ukraine">Ukraine</a></td><td style="white-space: nowrap; text-align: right">7.65</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bahrain">Bahrain</a></td><td style="white-space: nowrap; text-align: right">8.49</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=India">India</a></td><td style="white-space: nowrap; text-align: right">4.14</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Canada">Canada</a></td><td style="white-space: nowrap; text-align: right">9.51</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Turkey">Turkey</a></td><td style="white-space: nowrap; text-align: right">8.24</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Belgium">Belgium</a></td><td style="white-space: nowrap; text-align: right">13.53</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Finland">Finland</a></td><td style="white-space: nowrap; text-align: right">7.67</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Taiwan">Taiwan</a></td><td style="white-space: nowrap; text-align: right">15.58</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=North+Macedonia">North Macedonia</a></td><td style="white-space: nowrap; text-align: right">7.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=South+Africa">South Africa</a></td><td style="white-space: nowrap; text-align: right">7.05</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Georgia">Georgia</a></td><td style="white-space: nowrap; text-align: right">6.39</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Peru">Peru</a></td><td style="white-space: nowrap; text-align: right">7.03</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Germany">Germany</a></td><td style="white-space: nowrap; text-align: right">12.87</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Puerto+Rico">Puerto Rico</a></td><td style="white-space: nowrap; text-align: right">9.17</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=United+States">United States</a></td><td style="white-space: nowrap; text-align: right">11.34</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Thailand">Thailand</a></td><td style="white-space: nowrap; text-align: right">14.95</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Costa+Rica">Costa Rica</a></td><td style="white-space: nowrap; text-align: right">8.22</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Sweden">Sweden</a></td><td style="white-space: nowrap; text-align: right">10.80</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Vietnam">Vietnam</a></td><td style="white-space: nowrap; text-align: right">10.04</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Poland">Poland</a></td><td style="white-space: nowrap; text-align: right">7.97</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bulgaria">Bulgaria</a></td><td style="white-space: nowrap; text-align: right">9.38</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Jordan">Jordan</a></td><td style="white-space: nowrap; text-align: right">5.59</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Kuwait">Kuwait</a></td><td style="white-space: nowrap; text-align: right">5.24</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Nigeria">Nigeria</a></td><td style="white-space: nowrap; text-align: right">4.99</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Tunisia">Tunisia</a></td><td style="white-space: nowrap; text-align: right">9.50</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Croatia">Croatia</a></td><td style="white-space: nowrap; text-align: right">10.65</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Sri+Lanka">Sri Lanka</a></td><td style="white-space: nowrap; text-align: right">10.54</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Uruguay">Uruguay</a></td><td style="white-space: nowrap; text-align: right">11.85</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=United+Kingdom">United Kingdom</a></td><td style="white-space: nowrap; text-align: right">8.32</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=United+Arab+Emirates">United Arab Emirates</a></td><td style="white-space: nowrap; text-align: right">9.43</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Kenya">Kenya</a></td><td style="white-space: nowrap; text-align: right">8.70</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Switzerland">Switzerland</a></td><td style="white-space: nowrap; text-align: right">23.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Spain">Spain</a></td><td style="white-space: nowrap; text-align: right">12.42</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Lebanon">Lebanon</a></td><td style="white-space: nowrap; text-align: right">7.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Azerbaijan">Azerbaijan</a></td><td style="white-space: nowrap; text-align: right">3.83</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Cuba">Cuba</a></td><td style="white-space: nowrap; text-align: right">5.03</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Venezuela">Venezuela</a></td><td style="white-space: nowrap; text-align: right">5.67</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Czech+Republic">Czech Republic</a></td><td style="white-space: nowrap; text-align: right">11.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Israel">Israel</a></td><td style="white-space: nowrap; text-align: right">15.69</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Australia">Australia</a></td><td style="white-space: nowrap; text-align: right">8.57</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Estonia">Estonia</a></td><td style="white-space: nowrap; text-align: right">10.44</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Hong+Kong+%28China%29">Hong Kong (China)</a></td><td style="white-space: nowrap; text-align: right">19.71</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Cyprus">Cyprus</a></td><td style="white-space: nowrap; text-align: right">11.81</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Malaysia">Malaysia</a></td><td style="white-space: nowrap; text-align: right">12.05</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Oman">Oman</a></td><td style="white-space: nowrap; text-align: right">6.23</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bosnia+And+Herzegovina">Bosnia And Herzegovina</a></td><td style="white-space: nowrap; text-align: right">8.04</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Armenia">Armenia</a></td><td style="white-space: nowrap; text-align: right">6.46</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Austria">Austria</a></td><td style="white-space: nowrap; text-align: right">17.42</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=South+Korea">South Korea</a></td><td style="white-space: nowrap; text-align: right">11.20</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Luxembourg">Luxembourg</a></td><td style="white-space: nowrap; text-align: right">18.54</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Brazil">Brazil</a></td><td style="white-space: nowrap; text-align: right">7.85</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Algeria">Algeria</a></td><td style="white-space: nowrap; text-align: right">7.67</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Slovenia">Slovenia</a></td><td style="white-space: nowrap; text-align: right">13.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Colombia">Colombia</a></td><td style="white-space: nowrap; text-align: right">4.72</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ecuador">Ecuador</a></td><td style="white-space: nowrap; text-align: right">5.41</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Kosovo+%28Disputed+Territory%29">Kosovo (Disputed Territory)</a></td><td style="white-space: nowrap; text-align: right">5.80</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Hungary">Hungary</a></td><td style="white-space: nowrap; text-align: right">8.57</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Japan">Japan</a></td><td style="white-space: nowrap; text-align: right">9.44</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Moldova">Moldova</a></td><td style="white-space: nowrap; text-align: right">8.16</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Belarus">Belarus</a></td><td style="white-space: nowrap; text-align: right">6.73</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Mauritius">Mauritius</a></td><td style="white-space: nowrap; text-align: right">7.99</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Albania">Albania</a></td><td style="white-space: nowrap; text-align: right">10.64</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=New+Zealand">New Zealand</a></td><td style="white-space: nowrap; text-align: right">7.11</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Italy">Italy</a></td><td style="white-space: nowrap; text-align: right">14.97</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Singapore">Singapore</a></td><td style="white-space: nowrap; text-align: right">15.72</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Egypt">Egypt</a></td><td style="white-space: nowrap; text-align: right">2.98</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bolivia">Bolivia</a></td><td style="white-space: nowrap; text-align: right">4.32</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Malta">Malta</a></td><td style="white-space: nowrap; text-align: right">9.43</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Russia">Russia</a></td><td style="white-space: nowrap; text-align: right">9.67</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Saudi+Arabia">Saudi Arabia</a></td><td style="white-space: nowrap; text-align: right">6.47</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Netherlands">Netherlands</a></td><td style="white-space: nowrap; text-align: right">12.39</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Pakistan">Pakistan</a></td><td style="white-space: nowrap; text-align: right">5.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=China">China</a></td><td style="white-space: nowrap; text-align: right">11.27</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ireland">Ireland</a></td><td style="white-space: nowrap; text-align: right">9.85</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Qatar">Qatar</a></td><td style="white-space: nowrap; text-align: right">9.29</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Slovakia">Slovakia</a></td><td style="white-space: nowrap; text-align: right">12.41</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=France">France</a></td><td style="white-space: nowrap; text-align: right">17.22</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Lithuania">Lithuania</a></td><td style="white-space: nowrap; text-align: right">10.24</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Serbia">Serbia</a></td><td style="white-space: nowrap; text-align: right">8.57</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Romania">Romania</a></td><td style="white-space: nowrap; text-align: right">7.65</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Philippines">Philippines</a></td><td style="white-space: nowrap; text-align: right">6.54</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Uzbekistan">Uzbekistan</a></td><td style="white-space: nowrap; text-align: right">7.01</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bangladesh">Bangladesh</a></td><td style="white-space: nowrap; text-align: right">6.96</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Norway">Norway</a></td><td style="white-space: nowrap; text-align: right">11.18</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Denmark">Denmark</a></td><td style="white-space: nowrap; text-align: right">12.98</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Dominican+Republic">Dominican Republic</a></td><td style="white-space: nowrap; text-align: right">7.17</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Mexico">Mexico</a></td><td style="white-space: nowrap; text-align: right">8.03</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Zimbabwe">Zimbabwe</a></td><td style="white-space: nowrap; text-align: right">9.16</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Montenegro">Montenegro</a></td><td style="white-space: nowrap; text-align: right">7.99</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=Indonesia">Indonesia</a></td><td style="white-space: nowrap; text-align: right">7.45</td></tr>
+</tbody>
+</table>
+</div> <!-- max div for tables -->
+
+    <script>
+    whenDocReady(function() {
+    var t_t2 = $('#t2').DataTable({
+  'columnDefs': [ {
+      'searchable': false,
+      'orderable': false,
+      'targets': 0
+  } ],
+        'paging': false,
+        'order': [[ 2, "desc" ]]
+,    });
+    t_t2.on( 'order.dt search.dt', function () {
+        t_t2.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            cell.innerHTML = i+1;
+        } );
+    } ).draw();
+  });
+</script>
+
+<p>Last Update: March 14, 2026 10:32 PM, CET
+<br/>Data Source: Numbeo contributors and official sources
+<br/>Based on data collected within the last 12 months.
+</div>
+
+<!-- Column 1 end -->
+
+<div class="footer_content">
+<a href="https://www.numbeo.com/common/about.jsp">About</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/in_the_news.jsp">Numbeo in the News</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/join_community.jsp">Newsletter</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/premium/advertise">Advertise</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/premium/index">Premium</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/api.jsp" rel="nofollow">API</a><p>
+<span style="font-style: italic">
+Copyright &copy; 2009-2026 Numbeo. Your use of this service is subject to our 
+<a href="https://www.numbeo.com/common/terms_of_use.jsp">Terms of Use</a> and 
+<a href="https://www.numbeo.com/common/privacy.jsp">Privacy Policy</a>
+</span></p>
+</div>
+</div> <!-- end of innerWidth --> 
+
+    </body>
+</html>
+
+
+
